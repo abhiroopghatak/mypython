@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 # Maintained by : Abhiroop Ghatak <ghatak.20@gmail.com>
+'''Conceptually, we think of the whole document as a “bag” of words, rather than a sequence. We represent the document simply by the frequency of each word. For example,
+if we have a vocabulary of 1,000 words, then the whole document will be represented by a 1,000-dimensional vector,
+where the vector’s ith entry represents the frequency of the ith vocabulary word in the document.'''
+
 
 import pandas as pd
 import numpy as np
